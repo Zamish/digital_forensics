@@ -1,0 +1,12 @@
+1) a disk image is an exact copy of a storage device
+2) dd
+3) a disk partition is regions in a storage which is made so the OS can 
+handle info separately
+4) A disk can have up to 4 main partitions and an extended one, but they can
+ have more...up to 6... it depends...
+5) Any difficulties would just be the set up of them, other than that, they 
+are pretty much helpful
+6) it is quite easy to set up disk partitions for example in windows 10 you 
+would use windows key + x to open power user task menu > run option and type
+diskmgmt.msc and enter to take you to the set up.
+7)

@@ -1,0 +1,517 @@
+    1  apt-get update
+    2  aptitude
+    3  apt-get aptitude
+    4  apt-get installaptitude
+    5  apt-get install aptitude
+    6  apt-get upgrade -y
+    7  apt-get update
+    8  apt- upgrade -y
+    9  apt upgrade -y
+   10  apt-get upgrade -y
+   11  apt-get dist-upgrade -y
+   12  apt-get install linux-headers-$(uname -r) -y
+   13  apt-get install linux-headers-$(uname -r)
+   14  apt-get install linux-headers-$(uname -r) -y
+   15  uname -a
+   16  shutdown -r now
+   17  apt-get install linux-headers-$(uname -r) -y
+   18  scp
+   19  apt-get update
+   20  apt-get dist=-upgrade -y
+   21  apt-get dist-upgrade -y
+   22  apt-get install linux-headers-$(uname -r)
+   23  cp /media/cdrom/VBoxLinuxAdditions.run /root/Desktop/
+   24  cd /root/Desktop
+   25  chmod755 /root/VBoxlinuxAdditions.run
+   26  chmod 755 /root/VBoxlinuxAdditions.run
+   27  cp /media/cdrom/VBoxlinuxAdditions.run /root/Desktop/
+   28  cp /media/cdrom/VBoxLinuxAdditions.run /root/Desktop
+   29  cd /root/Desktop/
+   30  chmod 755 /root/VBoxLinuxAdditions.run
+   31  cd /root
+   32  cp /media/cdrom/VBoxLinuxAdditions.run /root/Desktop/
+   33  cd /root/Desktop/
+   34  chmod 755 /root/Desktop/VBoxLinuxAdditions.run 
+   35  ./VBoxLinuxAdditions.run 
+   36  shutdown -r now
+   37  sha1sum
+   38  sha1sum --help
+   39  sha1sum --check
+   40  sha1sum --check ls
+   41  ls
+   42  cd
+   43  cd Desktop
+   44  ls
+   45  l
+   46  ls
+   47  cd Documents
+   48  ls
+   49  cd Downloads
+   50  l
+   51  ls
+   52  cd Publoc
+   53  cd Public
+   54  ls
+   55  ls -rt
+   56  ls -rt media
+   57  ls -rt /media/
+   58  mkdir -p /mnt/analysis
+   59  cp /media/sf_digitalforensics/images/newfloppy.img /mnt/analysis
+   60  rm /mnt/analysis/newfloppy.img 
+   61  mkdir imageas
+   62  mkdir images
+   63  cp /media/sf_digitalforensics/images/newfloppy.img images/
+   64  cd images/
+   65  ls -rt
+   66  sha1sum
+   67  md5sum
+   68  sha1sum newfloppy.img 
+   69  sha1sum newfloppy.img  > newfloppy_sha1sum_091216.txt
+   70  cat newfloppy_sha1sum_091216
+   71  cat newfloppy_sha1sum_091216,txt
+   72  cat newfloppy_sha1sum_091216.txt
+   73  mount -ro newfloppy.img /mnt/analysis/
+   74  unmount /mnt/analysis
+   75  mount -o ro ,noexec newfloppy.img /mnt/analysis/
+   76  cd /mnt/analysis/
+   77  ls -rt
+   78  ls
+   79  ls -rt
+   80  find . -type f -exec sha1sum {} \; > ~/
+   81  mkdir -p /root/evid/
+   82  clear
+   83  mkdir -p /mnt/analysis
+   84  ls
+   85  ls downloads
+   86  ls
+   87  cd evid
+   88  ls
+   89  back
+   90  -
+   91  -b
+   92  cd 
+   93  ls 
+   94  ls mnt
+   95  ls /mnt
+   96  ls /mnt/analysis/
+   97  ls
+   98  cd /mnt/analysis/
+   99  ls
+  100  cd
+  101  clear
+  102  cd /mnt/analysis/q
+  103  cd /mnt/analysis/
+  104  cd
+  105  ls
+  106  ls media
+  107  ls /media
+  108  ls /media/sf_digitalforensics/
+  109  ls /media/sf_digitalforensics/images/
+  110  sha1sum /media/sf_digitalforensics/images/newfloppy.img 
+  111  ls /media/sf_digitalforensics/images/
+  112  ls /media/sf_digitalforensics/
+  113  ls /media/sf_digitalforensics
+  114  mkdir -p /media/sf_digitalforensics/images/
+  115  cd
+  116  ls /media/sf_digitalforensics/images/newfloppy.img mount -t ext2 -o ro, loop newfloppy.img /mnt/analysis/
+  117  mkdir -p /root/evid/
+  118  mkdir -p /root/evids/
+  119  ls
+  120  clear
+  121  sha1sum /mnt/analysis/ > /root/evid/sha.disk1
+  122  cd
+  123  clear
+  124  cd /mnt/analysis/
+  125  cd
+  126  mkdir ~/evid
+  127  find .-type f-exec sha1sum {} \; > ~/evid/sha.filelist
+  128  ls /root/evid/ find .-type f-exec sha1sum {} \; > ~/evid/sha.filelist
+  129  mkdir evid
+  130  ls evid
+  131  ls /root/evid/
+  132  cd /root/evid
+  133  ls /root/evid/ find .-type f-exec sha1sum {} \; > ~/evid/sha.filelist
+  134  cd
+  135  ls /root/evid/ find .-type f-exec sha1sum {} \; > ~/evid/sha.filelist
+  136  cd /root/evid
+  137  cd
+  138  sha1sum -c /root/evid/sha.filelist 
+  139  ls -al
+  140  ls -alR | less
+  141  ls -laiRtu > ~ /evid/access_file.list
+  142  clear
+  143  tree
+  144  apt get install tree
+  145  apt - get install tree
+  146  apt -get install tree
+  147  apt -get
+  148  apt -getinstall tree
+  149  apt-get install tree
+  150  tree
+  151  mydir /root/evids/
+  152  mkdir /root/evids/
+  153  mydir /root/evids/
+  154  rm -r /root/evids/
+  155  ls
+  156  tree
+  157  find .-type f -exec file {} \; > ~/evid/filetype.list
+  158  cat filetype.list
+  159  grep image ~/evid/filetype.list 
+  160  cd images
+  161  cd
+  162  rm -r /root/imageas/
+  163  tree
+  164  grep image ~/evid/filetype.list 
+  165  cd evid/
+  166  gre image filetype.list 
+  167  grep image filetype.list 
+  168  music
+  169  clear
+  170  iptux
+  171  clear
+  172  sl
+  173  cmatrix
+  174  clear
+  175  apt-get install espeak
+  176  yum install espeak
+  177  clear
+  178  espeal
+  179  espeak
+  180  espeak 
+  181  espeak "Hello"
+  182  espeak "Blah bLah"
+  183  yum install espeak
+  184  yum --help
+  185  yum 
+  186  yum espeak
+  187  install espeak
+  188  install --help
+  189  claer
+  190  clear
+  191  mkdir -p /root/evid/
+  192  sha1sum newfloppy.img
+  193  ls 
+  194  ls /media/sf_digitalforensics/images/newfloppy.img 
+  195  cd /media/sf_digitalforensics/images/newfloppy.img 
+  196  cd /media/sf_digitalforensics/images/
+  197  sha1sum newfloppy.img 
+  198  mount -t ext2 -o ro,exec newfloppy.img /mnt/analysis/
+  199  tree
+  200  cd
+  201  sha1sum /mnt/analysis/ > /root/evid/sha.disk1
+  202  mkdir ~/evid
+  203  find .-type f -exec sha1sum {} \; > ~/evid/sha.filelist 
+  204  cat ~ ~/evid/sha.1sum
+  205  -a --help
+  206  --help
+  207  help
+  208  help -a
+  209  grep -a
+  210  grep --help
+  211  r --help
+  212  clear
+  213  tree
+  214  man file
+  215  man file /media/sf_digitalforensics/images/newfloppy.img
+  216  tree
+  217  man file /root/evid/filetype.list
+  218  /root/evid/filetype.list man file
+  219  clear
+  220  man mount
+  221  clear
+  222  ext
+  223  ext --help
+  224  clear
+  225  ext2
+  226  ext2 --help
+  227  clear
+  228  cat /dev/urandom  | padsp clear
+  229  dd if=/dev/zero bs=1M count=400 >> floppy092016.img
+  230  du floppy092016.img 
+  231  man fdisk
+  232  fdisk -l
+  233  cfdisk floppy092016.img
+  234  mkf
+  235  mkfs
+  236  mkf
+  237  mkfs
+  238  mkfs.ext4 floppy092016.img 
+  239  mount floppy092016.img  /mnt/floppy
+  240  mkdir /mnt/floppy
+  241  mount floppy092016.img  /mnt/floppy
+  242  ls
+  243  pico
+  244  unmount /mnt/floppy/
+  245  tree
+  246  clear
+  247  cd
+  248  umount /mnt/floppy
+  249  cat floppy092016.img 
+  250  strings
+  251  cat floppy092016.img  | strings
+  252  ls
+  253  mount floppy092016.img  /mnt/floppy/
+  254  ls /mnt/floppy/
+  255  pico /mnt/floppy/luis.txt
+  256  umount /mnt/floppy 
+  257  cat floppy092016.img |strings
+  258  mount floppy092016.img  /mnt/floppy/
+  259  ls /mnt/floppy/
+  260  rm /mnt/floppy/luis.txt 
+  261  ls /mnt/floppy/
+  262  umount /mnt/floppy 
+  263  cat floppy092016.img |strings
+  264  fdisk
+  265  display 1.jpg
+  266  ls
+  267  tree
+  268  ls rangel_floppy.img
+  269  rangel_floppy.img
+  270  fdisk
+  271  fdisk rangel_floppy.img
+  272  clear
+  273  tree
+  274  cd /Desktop/pic/1.JPG
+  275  cd /Desktop/pic/1.jpg
+  276  cd /root/Desktop/pic/1.jpg
+  277  clear
+  278  /root/
+  279  /root/Desktop/1.jph
+  280  /root/Desktop/1.jpg
+  281  display /root/Desktop/1.jpg
+  282  tree
+  283  rangel_floppy.img
+  284  clear
+  285  cp /root/Desktop/1.jpg 
+  286  tree
+  287  cp /root/Desktop/1.jpg rangel_floppy.img 
+  288  ls rangel_floppy.img 
+  289  mount rangel_floppy.img 
+  290  clear
+  291  tree
+  292  mount rangel_floppy.img /mnt/floppy/
+  293  history
+  294  dd if=/dev/zero bs=1M count=400 >> floppy092016.img
+  295  ls
+  296  rm floppy09
+  297  mkdir asdf
+  298  mv floppy091616.img asdf
+  299  mv floppy092016.img asdf
+  300  ls
+  301  dd if=/dev/zero bs=1M count=400 >> bobisgod.img
+  302  ls
+  303  rm bobisgod.img 
+  304  dd if=/dev/zero bs=1M count=36 >> bobisgod.img
+  305  cfdisk bobisgod.img
+  306  rm bobisgod.img 
+  307  dd if=/dev/zero bs=1M count=36 >> bobisgod.img
+  308  cfdisk bobisgod.img
+  309  ls
+  310  mount bobisgod.img /mnt/floppy
+  311  dmesg bobisgod.ing |tail
+  312  fdisk bobisgod.img
+  313  cfdisk bobisgod.img
+  314  rm bobisgod.img 
+  315  dd if=/dev/zero bs=1M count=36 >> bobisgod.img
+  316  ls
+  317  cat bobisgod.img 
+  318  xxd bobisgod.img 
+  319  ls
+  320  clear
+  321  cfdisk bobisgod.img
+  322  cat bobisgod.img 
+  323  mount bobisgod.img /mnt/floppy
+  324  chmod 777 bobisgod.img 
+  325  mount bobisgod.img /mnt/floppy
+  326  rm bobisgod.img 
+  327  ls
+  328  ls asdf
+  329  mount asdf/floppy091616.img /mount/floppy
+  330  ls /mnt/floppy/
+  331  cp ~/Desktop/ /mnt/floppy/
+  332  ls /mnt/floppy/
+  333  cp -r ~/Desktop/ /mnt/floppy/
+  334  ls /mnt/floppy/
+  335  ls /mnt/floppy/Desktop/
+  336  rm /mnt/floppy/Desktop/VBoxLinuxAdditions.run 
+  337  umount /mnt/floppy
+  338  umount ~/asdf/floppy091616.img
+  339  ls
+  340  cd asdf
+  341  ls
+  342  umount flopyy091616.img
+  343  ls
+  344  umount floppy091616.img
+  345  mount floppy091616.img /mnt
+  346  /umount /mnt/floppy
+  347  ls /mnt/floppy/
+  348  ls /mnt/floppy/Desktop/
+  349  cat floppy091616.img 
+  350  xxd floppy091616.img  | cat
+  351  xxd floppy091616.img  | grep ^. > asdfasdf
+  352  xxd floppy091616.img  | grep ^. | cat
+  353  ls
+  354  ls /asdf/
+  355  c;ear
+  356  clear
+  357  ls -rt
+  358  history
+  359  umo\
+  360  ls /mnt/floppy/
+  361  mount rangel_floppy.img /mnt/floppy/
+  362  du -h rangel_floppy.img 
+  363  history |grep dd
+  364  dd if=/dev/zero bs=1M count=36 >> rangel_floppy.img
+  365  cfdisk rangel_floppy.img
+  366  mkfs.ext4 rangel_floppy.img 
+  367  mount rangel_floppy.img /mnt/floppy/
+  368  cp -r Desktop/*jpg /mnt/floppy/
+  369  ls /mnt/floppy/
+  370  umount /mnt/floppy 
+  371  ls /mnt/floppy/
+  372  mount rangel_floppy.img /mnt/floppy/
+  373  rm /mnt/floppy/*jpg
+  374  ls /mnt/floppy/
+  375  umount /mnt/floppy 
+  376  history
+  377  ls
+  378  history
+  379  scp rangel_floppy.img Luis@10.4.27.15:/home/Luis/Desktop/
+  380  history 
+  381  clear
+  382  firefox
+  383  ls Downloads/
+  384  cd Downloads/
+  385  xxd Renard_floppy.img |grep "ffd8"
+  386  xxd Renard_floppy.img |grep "ffd8" |grep -v "0000 0000"
+  387  grep -abi "ffd8" Renard_floppy.img 
+  388  pico lookforme
+  389  grep -abi "JFIF" lookforme Renard_floppy.img 
+  390  xxd Renard_floppy.img |grep "ffd8" |grep -v "0000 0000"
+  391  xxd Renard_floppy.img |grep JFIF
+  392  aptitude install bc
+  393  apt -get update ;apt -get install bc
+  394  apt -get update ; apt -get install bc
+  395  apt-get update ; apt-get install bc
+  396  apt-get install bc
+  397  echo "ibase=16;0093c800" |bc 
+  398  echo "ibase=16;0093C800" |bc 
+  399  xxd Renard_floppy.img |grep ffd9
+  400  xxd Renard_floppy.img |grep ffd9|grep -v"0000 0000"
+  401  xxd Renard_floppy.img |grep ffd9|grep-v"0000 0000"
+  402  xxd Renard_floppy.img |grep 
+  403  echo "ibase=16;009344B0" |bc 
+  404  echo "9684992 - 9651376"|bc
+  405  xxd Renard_floppy.img |grep ffd8|grep-v"0000 0000"
+  406  echo "ibase=16;009344B0" |bc 
+  407  echo "ibase=16;0093C800" |bc 
+  408  echo "9684992 - 9651376"|bc
+  409  dd if=Renard_floppy.img skip=9684992 bs=1 count=33616 of=pic1.jpg
+  410  display pic1.jpg 
+  411  history
+  412  cd Downloads/
+  413  ls
+  414  xxd Renard_floppy.img |grep JFIF
+  415  echo "ibase=16;0095F000" |bc 
+  416  xxd Renard_floppy.img |grep ffd9
+  417  xxd Renard_floppy.img |grep ffd9 |grep -v "0000 0000"
+  418  xxd Renard_floppy.img |grep JFIF
+  419  xxd Renard_floppy.img |grep ffd9 |grep -v "0000 0000"
+  420  echo "ibase=16;009A4D70" |bc 
+  421  echo "10112368 - 9826304"
+  422  echo "10112368 - 9826304"|c
+  423  echo "10112368 - 9826304"|bc
+  424  dd if=Renard_floppy.img skip=9826304 bs=1 count=286064 of=anotherpic
+  425  dd if=Renard_floppy.img skip=9826304 bs=1 count=286064 of=anotherpic.jpg
+  426  display anotherpic
+  427  rm anotherpic
+  428  display anotherpic.jpg 
+  429  xdd Unser_floppy.img 
+  430  xxd Unser_floppy.img |grep JFIF
+  431  xxd Unser_floppy.img |grep ffd9
+  432  xxd Unser_floppy.img |grep ffd9|grep -v "0000 0000"
+  433  xxd Unser_floppy.img |grep ffd 9| grep -v "0000 0000"
+  434  xxd Unser_floppy.img |grep ffd9 | grep -v "0000 0000"
+  435  echo "ibase=16;000FFD90" |bc 
+  436  echo "ibase=16;0092FE90" |bc 
+  437  echo "9633424"|bc
+  438  dd if=Unser_floppy.img skip=1047952 bs=1 count=8585472 of=Unser1.jpg
+  439  display Unser
+  440  display Unser1.jpg 
+  441  dd if=Unser_floppy.img skip=9633424 bs=1 count=8585472 of=Unser1.jpg
+  442  dd if=Unser_floppy.img skip=1047952 bs=1 count=8585472 of=Unser1.jpg
+  443  display Unser1.jpg 
+  444  dd if=Unser_floppy.img skip=1047952 bs=1 count=8585472 of=Unser1.png
+  445  display Unser1.PNG
+  446  xxd Unser_floppy.img |grep JFIF
+  447  xxd Unser_floppy.img |grep ffd9
+  448  xxd Unser_floppy.img |grep ffd9|grep -v "0000 0000"
+  449  echo "ibase=16;00928800" |bc 
+  450  echo "ibase=16;0092FE90" |bc 
+  451  echo "9633424 - 9603072"|bc
+  452  dd if=Unser_floppy.img skip=9603072 bs=1 count=30352 of=Unser1.jpg
+  453  display Unser
+  454  display Unser1.jpg
+  455  xxd Unser_floppy.img |grep JFIF
+  456  xxd Unser_floppy.img |grep ffd9
+  457  xxd Unser_floppy.img |grep ffd9|grep -v "0000 0000"
+  458  echo "ibase=16;00930000" |bc 
+  459  echo "ibase=16;0093F740" |bc 
+  460  echo "9697088 - 9633782"|bc
+  461  dd if=Unser_floppy.img skip=9633792 bs=1 count=63306 of=Unser2.jpg
+  462  display Unser2.jpg 
+  463  xxd Unser_floppy.img |grep JFIF
+  464  xxd Unser_floppy.img |grep ffd9
+  465  xxd Unser_floppy.img |grep ffd9|grep -v "0000 0000"
+  466  echo "ibase=16;00936C00" |bc 
+  467  echo "ibase=16;0098FA90" |bc 
+  468  echo "10025616 - 9661440"|bc
+  469  dd if=Unser_floppy.img skip=9661440 bs=1 count=364176 of=Unser3.jpg
+  470  display Unser3.jpg 
+  471  history 
+  472  sha1sum /usr/share/digitalforensics/images/practical.floppy.dd
+  473  sha1sum /usr/share/dclear
+  474  clear
+  475  tree
+  476  /usr/share/digitalforensics
+  477  /usr/share/digitalforensics/
+  478  ls asdf/
+  479  /root/Desktop/
+  480  cd /root/Desktop/
+  481  mount lll_osdf.img /mnt/floppy
+  482  cd
+  483  /mnt/floppy/
+  484  ls /mnt/floppy/
+  485  ls /mnt/floppy/lost+found/
+  486  cd Desktop/
+  487  xxd lll_osdf.img 
+  488  xxd lll_osdf.img | grep JFIF
+  489  xxd lll_osdf.img | grep FFD9
+  490  xxd lll_osdf.img | grep ffd9
+  491  echo "ibase=16;00009800" |bc
+  492  echo "ibase=16;0000B4C0" |bc
+  493  echo "46272 - 38912"
+  494  echo "46272 - 38912"| bc
+  495  dd if=lll_osdf.img skip=46272 bs=1 count=7360 of=hello.jpg
+  496  display hello.jpg 
+  497  dd if=lll_osdf.img skip=38912 bs=1 count=7360 of=hello.jpg
+  498  display hello.jpg 
+  499  dd if=/DS bs=1M count=150 >> sketchyfile.img
+  500  ls /dev/zero 
+  501  ls
+  502  cd Desktop/
+  503  cp text.odt < sketchyfile.img
+  504  cp text.odt < /root/sketchyfile.img
+  505  cp text.odt > /root/sketchyfile.img
+  506  ls
+  507  cd
+  508  ls Desktop/
+  509  cd
+  510  ls
+  511  history > rangel_2_commandhistory_102016.txt
+  512  ;s
+  513  ls
+  514  rm rangel_2_commandhistory_102016.txt 
+  515  ls
+  516  rm rangel_7_commandhistory_102016.txt 
+  517  history > rangel_7_commandhistory_102016.txt
