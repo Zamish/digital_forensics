@@ -1,0 +1,36 @@
+1) What is the bandwidth of wifi?
+	40 MHz
+2) What channels does wifi have?
+	1-11
+3) Which channels do people commonly use? Why?
+	The most common ones are 1,6 and 11
+4) What are the differences between A,B,G,N and AC IEEE defined
+ wireless protocols?
+	A capable to suppport 54mbps and its really old
+	B us no longer manufactured; supports a max transfer rate of 11mbps
+	G Supports max transfer rate of 54 mbps
+	N Supports a max of 450 mbps with 3 antennas, but typically 130 mbps
+	AC Supports 1GB per second and has a greater coverage area
+5) What are WEP, WPA, and WPA2? What are the differences?
+	WEP Wired Equivalent Privacy is a secured protocol
+	WPA Wifi protected access is a security standard for users using wifi
+	WPA2 on top of wpa this one has an option of pre-shared key
+	The differences are that each is an upgrade from the other and its
+	just a better more secured protocol than the other...
+6) Which is more secure? Which is least secure? Why?
+	WPA2 because it is the newest in algorithmic encryption. The least
+	secure would be WEP because it was the first one released
+7) What is AirSnort? What is it for? How does it work?
+	AirSnort is a linux tool that is used to decrypt WEP encryption.
+	It works by taking over secuity flaws and decrypt the actual thing
+8) What is Kismet (for Wireless)? What are its legal, legitimate uses?
+	Kismet is a network detector, packet sniffer and intrusion detection
+	system.
+	Its legal for and to monitor wireless sources secretly and detecting
+	rougue access points
+9) What is Karma (the wireless tool)?
+	Karma is a tool that helps users hack stuff the same way pineapple
+	uses the technique called evil twin attack which is a rogue wifi 
+	access point that appears legit but its actually set up to intercept 
+	your wireless communication.
+
