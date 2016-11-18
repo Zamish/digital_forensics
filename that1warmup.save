@@ -1,0 +1,8 @@
+1)DO iwlist ra0 scan | What do you see?
+2)Now try: iwconfig ra0 channel 6 | What do you see?
+3)Now iwspy ra0 | What was the output? What did it show?
+ Now in terminal do...
+4)What did this command do?
+	It downloaded a file (39.48K)
+ Then...
+

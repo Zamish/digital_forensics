@@ -1,0 +1,38 @@
+1) The command shows the primary table, unallocated, hidden IFS/HPDS and DOS
+	FAT12 and the slot, start, end and length | it shows the tupe of 
+	volume system...
+2) It gives out an error message saying it is an invalid magic value
+	because the file is not a DOS partition whereas the one in the first
+	question was...
+3) It shows the primary table, unallocated 4 linux partitions followed by 
+	uncallocated... 
+4) This has more data and more and bigger partitions.. the image that 
+	didn't work was an ext2 so that might've been why it gave an error msg
+5) The first column is the slot column which shows the partitions and their 
+	designated slots...
+6) The slot value could be the actual data that it is stored in because
+	each partitions is within a different slot thus being multiple if
+	you have multiple partitions...
+7) These commands show the supported partition types which are dos, mac, bsd
+	sun and gpt.
+8) raw is the exact bit by bit copy of an image and is good for digital 
+	forensics because it is an exact copy...
+   aff is the Advanced Forensics Format used for storage of disk images 
+   afd stands for Active Format DEscription and its a version supported by AFF
+	to if the file is too big 
+   afm is another variation and extention of affx3 it stores the metadata in
+	an AFF file and the disk in a separate raw file...
+   afflib AFF was implemented into AFFLIB to be distributed with an open 
+	source license this is basically like the toolbox of the tools...
+   ewf is expert witness format or encase image format which was used to 
+	store various types of digital evidence...
+   split some variants of the RAW image format split is the data among 
+	multiple segment files, which is also known as split raw...
+
+9) This commands shows the slots of the 4 partitions found within many
+	partitions3.disk
+10) It shows the allocated volume of the manypartitions3.disk
+11) This shows the units the size the disk labe  the disk indentifier i/o size
+	its devices, start end sectors size id and type...
+12) To find out sizes and snip bits that could be critical to either 
+	recovering or analyzing deleted or hidden files.
