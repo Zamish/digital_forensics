@@ -1,12 +1,32 @@
 	Use the bluetooth dongles (the other dongles in the box). After passing your Bluetooth to your VM.
 	Create a doc in your github folder-Lastname_Bluetooth-results. NUmber each answer and describe:
 1) /etc/init.d/bluetooth status This also works as regular user:
+	this checks if the bluetooth device is loaded
 2) apt-get update & & apt-get install -y gnome-bluetooth What happened?
+	this updated the database and installed a bluetooth utility program
 3) Check with hcitool dev
+	it showed that the bluetooth device was loaded on the computer
 4) hciconfig -a hci0 name yourschoolappropriatehandle What's this for?
+	to configure a bluetooth device that you named
 5) In a terminal you'll leave open hcidump -w lastname_btdump_1103 Close this at the end of class
+	check 
 6) hciconfig -a hci0 piscan Why do this?
+	this makes sure the bluetooth device is secured and scanned
 7) hcitool -i hci0 scan Post your results. Replace the last 4 with XXXX
+	00:1a:7d:da:xx:xx
 8) Why replace the last four?
+	to hide the entire adress to maintain anonymous
 9) apt-get ubstakk ivexfto What new packages were installed? [You'll need to read the output. Hint it's more than one]
+	libbfb0 libmulticobex1 lobovexftp0 libo enobex2 obexftp
 10) l2ping YO:UR:MA:CA:DD:RE:SS from your phone What did you see? What does it do?
+	hex values and connected to phone....
+11) dsptool browse YO:UR:MA:CA:DD:RE:SS Wjat did you see? What does this do?
+	Shows all the available services on the device
+12) sdptool search OPUSH  What did this list? What implications does it have?
+	sdp server
+13) btwscanner then i What do you see? What is this? ctrl-c to exit
+	all bluetooth data it can scan 
+14) Did you read the last question? If you did not press i in btscanner-you should reread it
+15) bluetoothctl What does this do? Reusults?
+	the bluetooth agent manages the bluetooth pairing code, it  can send one in or out...
+
