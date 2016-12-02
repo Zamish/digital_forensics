@@ -1,0 +1,24 @@
+1) fls is a tool for images that does anywhere from dispaying file, 
+	directories or entries to recurse, print version and imoffset
+	it basically shows the addons 
+2) -i displays the format of the image file. ewf is an enhanced write filter.
+	it shows the slot start end and length and description...
+	We typed ewf because it is an enhanced write filter it helped to 
+	filter things... 
+3) -r made it output recursive directory entries -i made it output the 
+	format of the image -o  is the img offset... this outputed a lot
+	of files with extentions like dll exe xsd sys and inf.
+4) A body file is an intermediate file that is created when you create a 
+	timeline of file activity which contains one line for each line...
+5) -m displays the output in mactime input format so the output was a lot
+	of random code.
+6) This put it in a file named bodyfile.txt
+7) Inside the bodyfile.txt there are random codes and data, you can't tell 
+	anything from the file.
+8) -r recursively prints the directory entries
+9) -m displays output in mactime input format with /dir as the actual 
+	mount point of the image
+10) -b specifies the body file location. This outputs another file with 
+	extention of csv
+11) CHECK 
+12)-r finish this

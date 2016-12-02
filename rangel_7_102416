@@ -1,0 +1,21 @@
+1) CHECK
+2) YES!
+3) DONE!
+4) OK...
+5) ALRIGHT...
+6) DONEZO!
+7) DID THAT
+HIDDEN MESSAGES = "the journal begins"
+"knowing is half the battle"
+"greap is great"
+"consider utopia"
+"sed -e 's/manypartitions.disk..[]*//g'|grep -o "^{^} *"
+"for part in $(cat partitions.txt); do echo "$part*512"|bc >> beginhere.txt"
+"are you winning?"
+"so many mysteries"
+"keep going"
+"you can do it!"
+"don't give up!"
+"no slacking!"
+"you're a winner!"" 
+

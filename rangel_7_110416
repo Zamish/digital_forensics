@@ -1,0 +1,12 @@
+	Use the bluetooth dongles (the other dongles in the box). After passing your Bluetooth to your VM.
+	Create a doc in your github folder-Lastname_Bluetooth-results. NUmber each answer and describe:
+1) /etc/init.d/bluetooth status This also works as regular user:
+2) apt-get update & & apt-get install -y gnome-bluetooth What happened?
+3) Check with hcitool dev
+4) hciconfig -a hci0 name yourschoolappropriatehandle What's this for?
+5) In a terminal you'll leave open hcidump -w lastname_btdump_1103 Close this at the end of class
+6) hciconfig -a hci0 piscan Why do this?
+7) hcitool -i hci0 scan Post your results. Replace the last 4 with XXXX
+8) Why replace the last four?
+9) apt-get ubstakk ivexfto What new packages were installed? [You'll need to read the output. Hint it's more than one]
+10) l2ping YO:UR:MA:CA:DD:RE:SS from your phone What did you see? What does it do?
