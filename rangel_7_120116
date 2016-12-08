@@ -1,6 +1,35 @@
 1) What is a pst file? What is it good for?
 	a pst file is a personal folder file in Outlook. 
 	it's good for organizing files and storage and such...
+	pffinfo determines info about a personal folder file
+	pffexport exports items stored in a personal folder file
 2) What do these programs do?
+	Microsoft Outlook is the program used for pst files and its used 
+	to send email messages, contacts, calendar items and more...
+	pff info and export help determine data from a personal folder
 3) How might they be used in digital forensics?
+	mairix is used to index and search mail folders
+	grepmail searches mailboxes for mail matching a regular expression
+	These are useful in digital forensics becasue by using these two we
+	can quickly find out and determine a lot of information from mail
+	or messages involving a mailing system and such...
 4) What do thse two programs do? How might you use them?
+	These programs serve to help search through email folders and search
+	mailboxes which we could use to easier find information that could 
+	lead to an answer on an investigation...
+5) How many directories are there?  What are the directories?
+	there are 5 new directories... IPM_COMMON_VIEWS, IPM_VIEWS
+	REMINDERS, SEARCH ROOT, TOP OF PERSONAL FOLDERS
+6) Using cat, Where are the actual messages kept? What directory(s)? 
+	What files?
+	the actual messages are kept in top of personal folders/inbox
+	and message00207...
+7) cat and grep the files to find the email requesting the spreadsheet.
+	OKAY
+8) Is this email suspicious/problematic? How? Be specific. Explain what most 
+	likely happened...
+	Yes its problamatic because it states that Jean asks to put together
+	a spreadsheet specifying each of the employees current salary ssn 
+	and says not to mention it to anybody...
+	What most likely happened is that they "needed" all of this info but 
+	sent it to the wrong person? It basically got leaked...

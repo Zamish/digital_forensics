@@ -1,0 +1,30 @@
+1) Look at ls /mnt/ewf/ - what do you see?
+	Two files... nps-2008-jean.ff and ".info
+2) This was createdusing xmount -namely smount --in ewf /usr/share/digitalf
+orensics/images/nps-2008-jean.R?? /mnt/ewf/" Why?
+	Because the xmount mounted the files into the folder ewf
+3) What is the xmount command to mount both disk images?
+	
+4) What are the two files in/mnt/ewf/?
+5) What is in the not-disk image?
+6) fls - i raw -o 63 /mnt/ewf/nps-2008-jean.dd
+7) WHat changed in the above command? i.e why the cahnge from ewf to raw?
+8) What is a body file?
+9) What do mactime and mac-robber do? Why?
+10) What are the parts of a mactime file? As described here...
+11) What do _ mean:
+	1)
+	2)
+	3)
+	4)
+12) Open the file mactimeout.csv with librecalc - what are some lines with 
+Excel documents mentioned?
+13) What does Jean typically do on her computer?
+14) fls -r -i raw -o 63 /mnt/ewf/nps-2008-jean.dd | grep .xls
+15) icat -o 63 -i raw /mnt/ewf/nps-2008-jeab.dd 32712 > example.xls
+16) Where did the number 32712 come from? Why and what do we use it for?
+17) Please submit the recovered xls pasted at the bottom of this assignment
+18) What are prefetch and lnk files?
+19) Where do we see them on the timeline?
+20) and what do they tell us
+21) The actual case and questions answer are here

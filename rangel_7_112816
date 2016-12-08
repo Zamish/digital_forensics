@@ -1,0 +1,55 @@
+1) Look at ls /mnt/ewf/ - what do you see?
+	Two files nos-2008-jean.dd and ".info
+2) This was createdusing xmount -namely smount --in ewf /usr/share/digitalf
+orensics/images/nps-2008-jean.R?? /mnt/ewf/" Why?
+	Because by mounting those two files you allowed the files to be edited
+	thus the extensions .dd and .info
+3) What is the xmount command to mount both disk images?
+	xmount --in ewd /usr/share/digitalforensics/images/nps-2008-jean.E??
+4) What are the two files in/mnt/ewf/?
+	nps-2008-jean.dd and nps-2008-jean.info
+5) What is in the not-disk image?
+	Information about the inquiry such as description examiner number date	
+6) fls - i raw -o 63 /mnt/ewf/nps-2008-jean.dd
+	done
+7) WHat changed in the above command? i.e why the cahnge from ewf to raw?
+	It gave out different data and i believe this is like the history
+	of what they did or opened on the computer
+8) What is a body file?
+	a body file is an intermediate file when creating a timeline of
+	file activity...
+9) What do mactime and mac-robber do? Why?
+	time machine is what creates automated backups...
+	mac-robber is a tool that collects data from allocated files in
+	a mounted file system...
+10) What are the parts of a mactime file? As described here...
+	the parts of mactime file is date/time size activity type
+	unix permissions user id group id inode and file name
+11) What do _ mean:
+	1)m is if it was modified written file modified etc...
+	2)a is if it was accessed or not
+	3)c is if it changed remained the same or mft modified
+	4)if it was created or not....
+12) Open the file mactimeout.csv with librecalc - what are some lines with 
+Excel documents mentioned?
+	wed feb 10 1999 02:41:18 11776 m..b r/rrwxrwxrwx 0    0
+	16911-128-3 /WINDOWS/ShellNew/Excel9.xls
+13) What does Jean typically do on her computer?
+	presentation designs
+14) fls -r -i raw -o 63 /mnt/ewf/nps-2008-jean.dd | grep .xls
+	This showed the excel files inside the dd file...
+15) icat -o 63 -i raw /mnt/ewf/nps-2008-jeab.dd 32712 > example.xls
+	DONE
+16) Where did the number 32712 come from? Why and what do we use it for?
+	Its a number found next to the file called m57biz.xls
+17) Please submit the recovered xls pasted at the bottom of this assignment
+	OK
+18) What are prefetch and lnk files?
+	prefech files analyze applications that have been run on a system
+	lnk files are a shortcut to point an executable file....
+19) Where do we see them on the timeline?
+	They are on the spreadsheet... 
+20) and what do they tell us
+	The stuff / programs they were using in a historical timeline
+	and they tell us about the stuff they did....
+21) The actual case and questions answer are here
