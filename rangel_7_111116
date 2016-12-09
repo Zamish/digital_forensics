@@ -1,0 +1,24 @@
+Investigate bluetooth exploits
+
+Describe the current state of bluetooth exploits listing 5 specific attacks:
+	Bluesnarfing is the term for exploiting info from a wireless bluetooth
+	device... 4 other exploits would be:
+	Bluejacking:
+	Is the sending of unwanted messages through a bluetooth device
+	Bluebugging:
+	Is when someone connects to a bluetooth device unaware and get full
+	control of the device without the host knowing...
+	Pod Slurping:
+	Is when you plug in a device with storage to a host and it automati
+	cally drains the entire data from the host device...
+	Snarfing:
+	Is when you grab a big file without the user's consent to mess with it
+Craft a narrative describing how bluetooth could be used to compromise network
+	Once upon a time, there was a toddler playing with a tablet and
+	accidentally turns on the bluetooth and automatically pairs to a 
+	tv of a neighbor... the neighbor will then get notified and is able
+	to obtain addresses that he should'nt be able to have and use that to
+	connect with a different device such as a phone which can then take
+	control of the tablet and by that it can go to the browser, log in
+	to the router, and mess with it and maybe shut it down, change the
+	password or completely break it.
