@@ -1,0 +1,43 @@
+Look at your command history.
+Make a list of the major 4 overarching topics you predict will be on the 
+semester exam.
+	FLS
+	XMOUNT
+	GREP 
+	MMLS
+EXPLAIN why these are the 4 overaching topics.
+	fls lists files and direcroty names in a disk image
+	xmount tool to crossmount between miltiple input and output img files
+	grep prints line matching a pattern
+	mmls displays the partition value of a volume system
+	These 4 topics overach because you need xmount to be able to edit or
+	mess with a file, grep is used to find certain info within a file
+	or directory, mmls to to show information about the volume system
+	and fls to find the directories in a directory
+	All these work together to get stuff done, they complement eachother..
+Make a list of twenty commands and briefly describe (in your own words) what
+each does 
+	cat collects data in the file and outputs it as text
+	pico allows you to edit text (very useful)
+	cd moves into a directory
+	ls shows the directories or files inside the current directory
+	cp copies a file to whatever destination
+	rm removes a file from the current directory
+	mkdir makes a new directory
+	beep write anything you wanna say and the computer will say it
+	man shows you the manual or help for a command
+	mmls this displays the partition values of a file 
+	xmount mounts a file so you could use it
+	icat outputs the data of file based on inode number
+	fdisk allows you to change the partition stuff
+	rmdir removes a directory
+	clear clears (not) command history so it won't look messy
+	locate is used to find files with ** and anythin inside it looks for
+	last sees the history of logged users on the computer
+	tac prints content of file as text but backwards
+	strings prints strings of characters in files..
+	killall...kills all of a command
+
+It is strongly recommended that you work (relatively) independently as
+duplicate text is penalized. [Overlapping commands are to be expected -but 
+overlapping explanations are not.] OKAY :D

@@ -1,0 +1,6 @@
+Explain how to recover deleted files using xxd, dd, and disk images.
+1) mount the file or get the file to be accessible
+2) run xxd (filename) |grep (file type extention )to find the tails and headers of the file
+3) get the two values turn them into hex with echo and subtract them (echo "1212121 - 12121212" |bc)
+4) now that you have the result use dd if(filename) skip(first value) bs=1 count(the result number) of(the name you want the file to be)
+5) Your file will now be created for you to enjoy
