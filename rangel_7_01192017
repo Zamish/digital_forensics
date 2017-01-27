@@ -1,0 +1,14 @@
+What is tcpdump?
+	tcpdump is  a dump of traffic packages that happen in a certain amount of time...
+Why do we use tcpdump for security?
+	we use tcpdump to see all connections or packages being received and sent... basically track websited, downloads and such you use...
+What is a pcap file?
+	pcap stands for package capture which captures network traffic
+How would you use a pcap file in a digital forensics investigation?
+	captures packets to a file to later read them, it helps because you could use these packets to see what was happening within that network and might be useful (ARE)
+What is Wireshark and what is it for?
+	wireshark is basically tcpdump but better and more user friendly 
+Why do non-root users not normally have Wireshark access?
+	Because you dont want normal users to go about intersecting packets sent from computer to computer
+
+
