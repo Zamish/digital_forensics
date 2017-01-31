@@ -1,0 +1,25 @@
+iINTERNET DATA
+
+1)TCP - what is it? when is it used?
+	tcp stands for transmission control protocol that is used as destination and sender kind of thing, it is used with www or the internet in general because they are 
+	erquired/run by it. Seeing tcp can give you information such as websites that someone viewed or downloads etc.
+2)UDP - what is it? how is it different than TCP?
+	udp stands for user datagram protocol that is an alternate to tcp used for low-latency and low tolerating connections so its basically tcp but for different 
+	kinds of connections...
+3)Three way handshake
+	This is a joke that represents that how things happen is that 3 messages are transmitted by tcp to start a connection between two computers.
+4)TCPdump - how might tcpdump be used by cyber-criminals? by cyber-investigators?
+	tcpdump basically dumps all traffic data used by tcp from a network or a port. This can be used by cyber-criminals by seeing information that has been sent into websites
+	and such that could be used in the wrong way and it could be used by cyber-investigators by tracking down if someone sent something innapropriate or that wasn't suppose to.
+5)ettercap - what is it good for?
+	ettercap is a software that allows the suer to stand between a connection and become a "person in the middle" which allows them to carry attacks or gather information from
+	either ends of the connection...
+6)wireshark - how is it used?
+	wireshark complements tcp dump by displaying packets and sources in a neatly manner that is vizualy appealing to the eye.
+7)nessus - how did TRinity use Nessus in the Matrix?
+	nessus is a vulnerability scanner that allows so see if there is something wrong in a connection and to see if your'e "vulnerable"
+8)DNS - how is DNS compromised and used by criminals? 
+	dns is a domain name system and it can be compromised because it can get ips of people and are able to track them down and basically bad stuff.	
+9)arp - what is arp? what is arp cache poisoning?
+	arp stands for address resolution protocol which maps the ip addresses of a network, arp poisoning is where the attacker changes the mac addresses and attackes the 
+	Ethernet by changin the address.
