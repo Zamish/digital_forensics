@@ -1,0 +1,40 @@
+iLook at the files in/usr/share/digitalforensics/pcap
+Describe at least 10 websites visited in the first PCAP 
+	www.wireshark.org
+	www.update.microsoft.com
+	www.python.org
+	www.msn.com
+	www.msftncsi.com
+	www.googleadservices.com
+	www.google.com	
+	www.google-analytics.com
+	www.bing.com
+	watson.microsoft.com
+	view.atdmt.com
+	wpdate.sanasecurity.com
+	update.avg.com
+	tools.google.com
+	search.live.com
+	download.windowsupdate.com
+	
+Besides http traffic, what other traffic do you see?
+	LLDP 
+	UDP
+	DNS
+	TCP
+	TLSv1
+	ARP
+	LANMAN	
+Describe the topography of the network in the files.
+	It seems that the person went into incognito mode for a time and something about windows update and antiviruses?
+Describe output of following 4 commands...
+	tcpdump -w capture.pcap -i eth1
+		-w writes the raw packets into a file isntead of just printing them out -i uses the interface and ethernet port 1 :D
+	tcpick -C -r capture.pcap
+		-C uses terminal colors so it looks nice and organized and -r reads the packets from tcpdump
+	tshark -n -r capture.pcap -T fields -r ip.dst_host -e frame.time_delta
+		-r disables network object name resolution and reads it from a certain time	
+	tcptrace --tsv -xHTTP -f ''port=80'' -btn capture.pcap
+		this is a traffic capture thing and ti traces the http so find websites and such	
+	tcpdump -ttttnr acpture.pcap	
+		this prints a timestamp without converting addresses
