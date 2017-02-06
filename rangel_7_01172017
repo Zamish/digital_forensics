@@ -1,0 +1,10 @@
+What is the bash command to solve the first problem? What was the answer?
+	echo 2^39|bc the answer is 274877906944
+What is the hidden message? What is the next URL?
+	The hidden message is basically a shift of characters which tells you to change the url to ocr
+Use grep skills to parse the source code. What was the grep syntax you needed to find the hidden code? What is the hidden message?
+	I used netbeans and a few java commands to get this code to work... you basically grep with parameters of A-Z a-z
+This challenge also requires grep. What is the grep phrase to find the solution? What was the solution? [spells a word]
+	linkedlist
+Use wget and greo to solve this challenge. Do not grab more than 400 webpages. What is the syntax you used? How did you find the approproate web page?
+	I didn't know what to do :(
