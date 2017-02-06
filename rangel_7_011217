@@ -1,0 +1,18 @@
+Try out this command:
+
+tcpdump -s0 -X dst port 80
+
+What does it do?
+it dumps a file with a set size with data packets in hex from destination port 80 which is an internet client.
+
+Why '-s0'?
+"snapshot length" 0 sets it to default which is 65535, basically limits the size so the output isn't as much and only to find what you are looking for.
+
+What is '-X' for?
+in addition to printing the headers, prints data of each packet except link in both hex and and ASCII
+
+What does 'dst' do?
+destination IP addresses and ports
+
+Why port 80?
+port 80 is the port that a server expects to receive from a Web client. (from http)
